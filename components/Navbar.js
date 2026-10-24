@@ -24,7 +24,7 @@ export default function Navbar() {
               <img src="/images/logo.jpeg" alt="Annai Logo" className="w-full h-full object-cover" />
             </div>
             <div>
-              <h1 className="text-sm md:text-xl font-serif text-charcoal font-semibold tracking-wide leading-tight">
+              <h1 className="text-base md:text-2xl font-serif text-terracotta font-semibold tracking-wide leading-tight">
                 Annai Family Restaurant
               </h1>
               <p className="text-[8px] md:text-[10px] tracking-widest text-muted uppercase mt-1 hidden sm:block">

@@ -7,6 +7,10 @@ export default function Home() {
       <section id="home" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
         <div className="space-y-6 md:space-y-8">
+                    {/* Restaurant Name Top */}
+          <h2 className="text-xl md:text-4xl font-bold text-charcoal uppercase tracking-widest mb-2">
+            Annai Family Restaurant
+          </h2>
           <div className="flex items-center gap-4">
             <div className="h-[1px] w-8 md:w-12 bg-terracotta"></div>
             <p className="text-[10px] md:text-xs tracking-[0.2em] text-terracotta uppercase font-semibold">
@@ -258,7 +262,8 @@ export default function Home() {
                   <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Babycorn Chilli</li>
                   <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Paneer Manchuriyan</li>
                   <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Paneer Garlic Manchuriyan</li>
-                  <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Hot Pepper Dry (Mushroom/Cauliflower/Paneer/Babycorn)</li>
+                  <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Hot Pepper Dry (Mushroom/Cauliflower/
+                    Paneer/Babycorn)</li>
                 </ul>
               </div>
             </div>
@@ -331,8 +336,8 @@ export default function Home() {
               <div className="flex gap-4 md:gap-6 items-start">
                 <img src="/images/mojito.jpg" alt="Mojito" className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-full shadow-md flex-shrink-0" />
                 <ul className="space-y-2 flex-grow pt-2">
-                  <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Milk Shakes (Vanilla/Strawberry/Butterscotch/
-                    Chocolate/Mango)
+                  <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Milk Shakes (Vanilla/Strawberry/Mango/
+                    Butterscotch/Chocolate)
                   </li>
                   <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Mint Mojito</li>
                   <li className="text-sm md:text-base font-serif text-gray-700 border-b border-gray-100 pb-1">Blue Lagoon</li>
