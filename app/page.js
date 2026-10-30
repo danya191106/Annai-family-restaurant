@@ -416,7 +416,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= CONTACT SECTION ================= */}
+        {/* ================= CONTACT SECTION ================= */}
       <section id="contact" className="bg-cream py-16 md:py-24 border-t border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
@@ -433,7 +433,7 @@ export default function Home() {
                 <p className="text-base md:text-lg text-charcoal leading-relaxed font-serif">
                   Annai Family Restaurant,<br/>
                   OPP: Bank of Baroda,<br/>
-                  Near Govt.Boys School Play Ground,
+                  Near Govt.Boys School Play Ground,<br/>
                   Pattaraimedu, Tiruchengode, Namakkal, Tamil Nadu 637209
                 </p>
               </div>
@@ -453,12 +453,13 @@ export default function Home() {
 
             <div className="h-[300px] md:h-[400px] w-full border border-border p-1 md:p-2 bg-white shadow-sm">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d678.4894751411414!2d77.89430142028263!3d11.387514524971934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba961a323d7c711%3A0xf5f107a8e50f9d5b!2s9VQV%2B2Q%2C%20Pattaraimedu%2C%20Tiruchengode%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1792428087012!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.2766177904446!2d77.8944276!3d11.387444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba961e283ab3b61%3A0xecd16a88baace446!2sAnnai%20Family%20Restaurant!5e0!3m2!1sen!2sin!4v1793368508739!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
                 allowFullScreen={true} 
                 loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
                 title="Annai Family Restaurant Location"
               ></iframe>
             </div>
@@ -466,6 +467,4 @@ export default function Home() {
         </div>
       </section>
 
-    </div>
-  );
-}
+     
